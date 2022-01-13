@@ -1,0 +1,182 @@
+[
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/2/29/Hermes_Boots.png",
+        "name": "Hermes Boots",
+        "price": 100,
+        "featured": false,
+        "rating": 4.2,
+        "versionAdded": "1.0",
+        "location": "Gold Chest"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/c/c3/Flurry_Boots.png",
+        "name": "Flurry Boots",
+        "price": 100,
+        "featured": false,
+        "rating": 2.7,
+        "versionAdded": "1.2",
+        "location": "Frozen Chest"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/0/03/Sailfish_Boots.png",
+        "name": "Sailfish Boots",
+        "price": 100,
+        "featured": false,
+        "rating": 2.0,
+        "versionAdded": "1.3.0.1",
+        "location": "Wooden Crate"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/c/c6/Dunerider_Boots.png",
+        "name": "Dunerider Boots",
+        "price": 100,
+        "featured": false,
+        "rating": 1.6,
+        "versionAdded": "1.4.0.1",
+        "location": "Sandstone Chest"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8d/Amphibian_Boots.png",
+        "name": "Amphibian Boots",
+        "price": 100,
+        "featured": false,
+        "rating": 1.2,
+        "versionAdded": "1.4.0.1",
+        "location": "Tinkerer's Workshop"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/2/28/Spectre_Boots.png",
+        "name": "Spectre Boots",
+        "price": 100,
+        "featured": false,
+        "rating": 4.5,
+        "versionAdded": "1.1",
+        "location": "Tinkerer's Workshop"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/8/82/Fairy_Boots.png",
+        "name": "Fairy Boots",
+        "price": 100,
+        "featured": false,
+        "rating": 1.8,
+        "versionAdded": "1.4.0.1",
+        "location": "Tinkerer's Workshop"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/2/2c/Lightning_Boots.png",
+        "name": "Lightning Boots",
+        "price": 100,
+        "featured": false,
+        "rating": 4.1,
+        "versionAdded": "1.2",
+        "location": "Tinkerer's Workshop"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/1/19/Frostspark_Boots.png",
+        "name": "Frostspark Boots",
+        "price": 100,
+        "featured": false,
+        "rating": 4.3,
+        "versionAdded": "1.2.1.2",
+        "location": "Tinkerer's Workshop"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/b/ba/Terraspark_Boots.png",
+        "name": "Terraspark Boots",
+        "price": 100,
+        "featured": false,
+        "rating": 5,
+        "versionAdded": "1.4.0.1",
+        "location": "Tinkerer's Workshop"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cf/Water_Walking_Boots.png",
+        "name": "Water Walking Boots",
+        "price": 100,
+        "featured": false,
+        "rating": 3.4,
+        "versionAdded": "1.2",
+        "location": "Ocean Chest"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/5/51/Obsidian_Water_Walking_Boots.png",
+        "name": "Obsidian Water Walking Boots",
+        "price": 100,
+        "featured": false,
+        "rating": 4.1,
+        "versionAdded": "1.2",
+        "location": "Tinkerer's Workshop"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/1/1a/Lava_Waders.png",
+        "name": "Lava Waders",
+        "price": 100,
+        "featured": false,
+        "rating": 4.9,
+        "versionAdded": "1.2",
+        "location": "Tinkerer's Workshop"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/c/c7/Hellfire_Treads.png",
+        "name": "Hellfire Treads",
+        "price": 100,
+        "featured": false,
+        "rating": 3.4,
+        "versionAdded": "1.4.0.1",
+        "location": "Tinkerer's Workshop"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/2/2b/Rocket_Boots.png",
+        "name": "Rocket Boots",
+        "price": 100,
+        "featured": false,
+        "rating": 4.6,
+        "versionAdded": "1.0",
+        "location": "Goblin Tinkerer"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/0/0a/Ice_Skates.png",
+        "name": "Ice Skates",
+        "price": 100,
+        "featured": false,
+        "rating": 2.6,
+        "versionAdded": "1.2",
+        "location": "Frozen Chest"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/4/4e/Flower_Boots.png",
+        "name": "Flower Boots",
+        "price": 100,
+        "featured": false,
+        "rating": 1.5,
+        "versionAdded": "1.3.0.1",
+        "location": "Ivy Chest"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/a/aa/Flame_Waker_Boots.png",
+        "name": "Flame Walker Boots",
+        "price": 100,
+        "featured": false,
+        "rating": 3.1,
+        "versionAdded": "1.4.0.1",
+        "location": "Obsidian Crate"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/d/d7/Lucky_Horseshoe.png",
+        "name": "Lucky Horseshoe",
+        "price": 100,
+        "featured": false,
+        "rating": 4.6,
+        "versionAdded": "1.0",
+        "location": "Sky Chest"
+    },
+    {
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/1/17/Flipper.png",
+        "name": "Flipper",
+        "price": 100,
+        "featured": false,
+        "rating": 2.3,
+        "versionAdded": "1.0",
+        "location": "Ocean Chest"
+    }
+]

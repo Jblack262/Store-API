@@ -1,0 +1,94 @@
+/* ADD PRODUCT FORM */
+.edit-product-form {
+	background-color: #bdc3c7;
+	color: #2c3e50;
+
+	font-size: 1.25rem;
+	width: max-content;
+	padding: 0rem 1rem;
+	margin: 1rem auto;
+
+	border-radius: 0.5rem;
+	box-shadow: 5px 5px 5px #00000066;
+}
+.edit-product-form h2 {
+	margin: 0;
+	padding: 1rem;
+	padding-left: 0;
+	text-decoration: underline;
+}
+
+.btn-container {
+	display: flex;
+	justify-content: space-between;
+}
+.edit-product-form button a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.edit-product-form button {
+	margin: 1rem 0;
+	position: relative;
+	/* left: 100%;
+	transform: translateX(-100%); */
+
+	background-color: transparent;
+	box-sizing: border-box;
+	border: none;
+	border: 4px solid #2c3e50;
+	color: #2c3e50;
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.25rem;
+	box-shadow: 5px 5px 5px #00000033;
+	cursor: pointer;
+}
+.edit-product-form button:hover {
+	border-color: #3498db;
+	color: #3498db;
+}
+
+.form-body {
+	display: flex;
+	flex-direction: column;
+	width: max-content;
+	margin: 0 auto;
+}
+
+.form-body label,
+.form-body .checkbox-container .featured-input {
+	cursor: pointer;
+}
+
+.form-body .checkbox-container {
+	background-color: #ecf0f1;
+	margin: 0.25rem;
+	padding: 0.5rem 1rem 0.5rem 0.25rem;
+	border-radius: 0.25rem;
+	color: #00000088;
+
+	box-shadow: 5px 5px 5px #00000033, -2.5px -2.5px 5px #00000033 inset;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.form-body > input {
+	padding: 0.5rem 1rem 0.5rem 0.25rem;
+	border: none;
+	margin: 0.25rem;
+	border-radius: 0.25rem;
+	background-color: #ecf0f1;
+
+	box-shadow: 5px 5px 5px #00000033, -2.5px -2.5px 5px #00000033 inset;
+}
+
+.alert-message {
+	text-align: center;
+	margin: 0.5rem;
+
+	visibility: hidden;
+	display: none;
+}

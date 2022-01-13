@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <!-- roboto font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <!-- normalize and main css -->
+        <link rel="stylesheet" href="./normalize.css">
+        <link rel="stylesheet" href="./edit.css">
+        <title>Edit Product</title>
+    </head>
+<body>
+    <form class="edit-product-form">
+        <h2>Edit Product</h2>
+        <h4>Task ID: <br/><span class="taskID"></span></h4>
+        <div class="form-body">
+            <input required type="text" name="image" class="image-input" placeholder="Image URL...">
+            <img src="" alt="Image Not Found" class="image">
+            <input required type="text" name="name" class="name-input" placeholder="Name...">
+            <input required type="number" name="price" class="price-input" placeholder="Price...">
+            <div class="checkbox-container">
+                <label for="featured">Featured Product</label>
+                <input type="checkbox" name="featured" id="featured" class="featured-input">
+            </div>
+            <input required type="number" name="rating" class="rating-input" placeholder="Rating..." min="0" max="5" step="0.1">
+            <input required type="text" name="version" class="version-input" placeholder="Version...">
+            <input required type="text" name="location" class="location-input" placeholder="Location...">
+        </div>
+        <p class="alert-message"></p>
+        <div class="btn-container">
+            <button type="menu" class="back-btn">Back</button>
+            <button type="submit" class="edit-product-submit">Submit</button>
+        </div>
+    </form>
+
+    <!-- axios -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./edit.js"></script>
+</body>
+</html>
