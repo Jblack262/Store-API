@@ -18,6 +18,62 @@
     <title>Store API</title>
 </head>
 <body>
+
+    <div class="readme-container">
+        <h1>Store API</h1>
+        <h3>JD Blackman</h3>
+        <p>This is a store api used to create and store products in a database</p>
+
+        <h2>How to use</h2>
+        <p>This api is not published so it can only be downloaded and used locally</p>
+
+        <p>download then open the root of the project and run the command "npm start" in it's terminal</p>
+
+        <h3>Get a list of items</h3>
+        <h4>GET /api/v1/products</h4>
+        <p>returns array called "products"</p>
+
+        <h3>Create a new product</h3>
+        <h4>POST /api/v1/products</h4>
+        <p>returns the object that gets added to the database</p>
+
+        <h3>update a product</h3>
+        <h4>PATCH /api/v1/products/:id</h4>
+        <p>include the product id as a parameter</p>
+        <p>include the updated product in the request body</p>
+
+        <p>returns an object called "newProduct" with all new attributes that have been changed</p>
+    
+        <h3>get individual product</h3>
+        <h4>GET /api/v1/products/:id</h4>
+        <p>include the product id as a parameter</p>
+        <p>returns the product with the id you requested</p>
+
+        <h3>Delete product</h3>
+        <h4>DELETE /api/v1/products/:id</h4>
+        <p>include the product id as a parameter</p>
+        <p>returns object "success": true or false</p>
+    
+        <h3>Delete all products</h3>
+        <h4>DELETE /api/v1/products</h4>
+        <p>returns object "success": true or false</p>
+    
+        <h3>example product includes</h3>
+        <ul>
+            <li>image url (string)</li>
+            <li>name (string)</li>
+            <li>price (number)</li>
+            <li>featured (boolean)</li>
+            <li>rating (num 0 - 5)</li>
+            <li>version (number)</li>
+            <li>location (string)</li>
+        </ul>
+    
+    
+    
+    
+    </div>
+
     <form class="add-product-form">
         <h2>Add Product</h2>
         <div class="form-body">
