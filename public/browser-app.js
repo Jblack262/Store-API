@@ -43,7 +43,7 @@ const showProducts = async () => {
                             </div>
                         </div>
                     </div>`
-        }).join("")
+        }).reverse().join("")
         productsContainerDOM.innerHTML = allProducts;
     } catch(error) {
         productsContainerDOM.innerHTML = `<h5 class="empty-list">There was an error, please try again later... ${error}</h5>`
